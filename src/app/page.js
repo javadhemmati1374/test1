@@ -10,7 +10,7 @@ const submitForm = (data) => ({
   payload: data,
 });
 
-const FormComponent = () => {
+const Form = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const dispatch = useDispatch();
@@ -73,4 +73,4 @@ const FormComponent = () => {
   );
 };
 
-export default FormComponent;
+export default Form;
